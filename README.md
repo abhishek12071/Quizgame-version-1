@@ -3,14 +3,19 @@
 live link: 
 https://abhishek12071.github.io/Quizgame/
 
+
 HTML Structure:
 The HTML structure consists of a container element with a title and three main sections: game container, correct page, and wrong page.
 The game container contains the options, input containers, and check/reset buttons.
 The correct page and wrong page are initially hidden and are displayed based on the user's answer.
 
+
+
 CSS Styling:
 The CSS styling is responsible for the overall appearance of the quiz game.
 It sets the background color, font styles, layout, and colors for various elements such as the cards, buttons, options, inputs, etc.
+
+
 
 JavaScript Functionality:
 The JavaScript code adds interactive functionality to the quiz game, including drag and drop for options and inputs.The components used are:
@@ -30,6 +35,8 @@ showWrongPage(): This function hides the game container and displays the wrong p
 resetGame(): This function resets the game to its initial state. It clears the options and input containers, generates new random values, and enables the check button.
 
 getRandomValue(): This function generates a random number between 1 and 1000 for the options.
+
+
 
 
 Overall Flow:
